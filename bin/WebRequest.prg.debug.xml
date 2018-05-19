@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<pcToLineNum>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="14" pc="268435456" symbol="onMenu"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="15" pc="268435460" symbol="onMenu"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="16" pc="268435472" symbol="onMenu"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="19" pc="268435476" symbol="onSelect"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="20" pc="268435480" symbol="onSelect"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="21" pc="268435492" symbol="onSelect"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="25" pc="268435496" symbol="initialize"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="27" pc="268435500" symbol="initialize"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="28" pc="268435522" symbol="initialize"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="31" pc="268435533" symbol="makeRequest"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="32" pc="268435537" symbol="makeRequest"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="34" pc="268435560" symbol="makeRequest"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="49" pc="268435650" symbol="onReceive"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="50" pc="268435654" symbol="onReceive"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="51" pc="268435665" symbol="onReceive"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="52" pc="268435688" symbol="onReceive"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="58" pc="268435705" symbol="onReceive"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="62" pc="268435741" symbol="parseLines"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="63" pc="268435745" symbol="parseLines"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="64" pc="268435753" symbol="parseLines"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="65" pc="268435777" symbol="parseLines"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="66" pc="268435784" symbol="parseLines"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="67" pc="268435802" symbol="parseLines"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="70" pc="268435840" symbol="parseLines"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="74" pc="268435882" symbol="parseLines"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="15" pc="268435903" symbol="initialize"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="16" pc="268435907" symbol="initialize"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="20" pc="268435930" symbol="onLayout"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="21" pc="268435934" symbol="onLayout"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="22" pc="268435947" symbol="onLayout"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="26" pc="268435958" symbol="onShow"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="30" pc="268435963" symbol="onUpdate"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="31" pc="268435967" symbol="onUpdate"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="32" pc="268436003" symbol="onUpdate"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="34" pc="268436015" symbol="onUpdate"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="35" pc="268436035" symbol="onUpdate"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="37" pc="268436060" symbol="onUpdate"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="41" pc="268436152" symbol="displayLargeContent"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="45" pc="268436156" symbol="displayLargeContent"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="46" pc="268436169" symbol="displayLargeContent"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="48" pc="268436176" symbol="displayLargeContent"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="49" pc="268436191" symbol="displayLargeContent"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="52" pc="268436214" symbol="displayLargeContent"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="57" pc="268436275" symbol="onHide"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="60" pc="268436280" symbol="onReceive"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="61" pc="268436284" symbol="onReceive"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="62" pc="268436294" symbol="onReceive"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestApp.mc" lineNum="12" pc="268436311" symbol="initialize"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestApp.mc" lineNum="13" pc="268436315" symbol="initialize"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestApp.mc" lineNum="17" pc="268436338" symbol="onStart"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestApp.mc" lineNum="21" pc="268436343" symbol="onStop"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestApp.mc" lineNum="25" pc="268436348" symbol="getInitialView"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestApp.mc" lineNum="26" pc="268436352" symbol="getInitialView"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestApp.mc" lineNum="27" pc="268436382" symbol="getInitialView"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="8389619" method="true" symbol="onSelect"/>
+<entry field="true" id="22" symbol="mDc"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry field="true" id="8389115" symbol="mMessage"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry field="true" id="16" symbol="AppName"/>
+<entry id="18" method="true" symbol="makeRequest"/>
+<entry id="8389080" method="true" symbol="onMenu"/>
+<entry field="true" id="15" symbol="LauncherIcon"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="20" method="true" symbol="parseLines"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="11" object="true" symbol="WebRequestApp"/>
+<entry id="10" object="true" symbol="WebRequestView"/>
+<entry id="23" method="true" symbol="displayLargeContent"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="17" symbol="notify"/>
+<entry id="9" object="true" symbol="WebRequestDelegate"/>
+<entry field="true" id="21" symbol="mModel"/>
+<entry id="14" module="true" symbol="Layouts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry id="8389844" symbol="responseType"/>
+<entry id="13" module="true" symbol="Menus"/>
+<entry id="19" method="true" symbol="onReceive"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry field="true" id="12" symbol="mView"/>
+</symbolTable>
+<localVars>
+<entry endPc="268435533" name="handler" stackId="1" startPc="268435496"/>
+<entry endPc="268435741" name="responseCode" stackId="1" startPc="268435650"/>
+<entry endPc="268435741" name="data" stackId="2" startPc="268435650"/>
+<entry endPc="268435869" name="status" stackId="6" startPc="268435777"/>
+<entry endPc="268435869" name="name" stackId="5" startPc="268435777"/>
+<entry endPc="268435869" name="item" stackId="4" startPc="268435777"/>
+<entry endPc="268435882" name="i" stackId="3" startPc="268435777"/>
+<entry endPc="268435902" name="results" stackId="2" startPc="268435745"/>
+<entry endPc="268435903" name="tubesLinesData" stackId="1" startPc="268435741"/>
+<entry endPc="268435958" name="dc" stackId="1" startPc="268435930"/>
+<entry endPc="268436152" name="dc" stackId="1" startPc="268435963"/>
+<entry endPc="268436214" name="i" stackId="5" startPc="268436191"/>
+<entry endPc="268436274" name="result" stackId="4" startPc="268436156"/>
+<entry endPc="268436274" name="max" stackId="3" startPc="268436156"/>
+<entry endPc="268436275" name="dc" stackId="1" startPc="268436152"/>
+<entry endPc="268436275" name="content" stackId="2" startPc="268436152"/>
+<entry endPc="268436311" name="args" stackId="1" startPc="268436280"/>
+<entry endPc="268436343" name="state" stackId="1" startPc="268436338"/>
+<entry endPc="268436348" name="state" stackId="1" startPc="268436343"/>
+</localVars>
+<annotations/>
+<functions>
+<functionEntry accessMode="public" name="onMenu" parent="WebRequestDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onSelect" parent="WebRequestDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="WebRequestDelegate">
+<param id="handler"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="makeRequest" parent="WebRequestDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onReceive" parent="WebRequestDelegate">
+<param id="responseCode"/>
+<param id="data"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="parseLines" parent="WebRequestDelegate">
+<param id="tubesLinesData"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="WebRequestView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onLayout" parent="WebRequestView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="WebRequestView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onUpdate" parent="WebRequestView">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="displayLargeContent" parent="WebRequestView">
+<param id="dc"/>
+<param id="content"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="WebRequestView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onReceive" parent="WebRequestView">
+<param id="args"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="initialize" parent="WebRequestApp">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="WebRequestApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="WebRequestApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getInitialView" parent="WebRequestApp">
+<documentation/>
+</functionEntry>
+</functions>
+<dataEntryOffsetMappings>
+<dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry offset="182" parentId="globals" symbolId="WebRequestApp" type="class"/>
+<dataEntry offset="261" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry offset="340" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry offset="379" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry offset="410" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry offset="441" parentId="Rez" symbolId="JsonData" type="module"/>
+<dataEntry offset="472" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry offset="503" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry offset="542" parentId="globals" symbolId="WebRequestDelegate" type="class"/>
+<dataEntry offset="637" parentId="globals" symbolId="WebRequestView" type="class"/>
+</dataEntryOffsetMappings>
+</debugInfo>
