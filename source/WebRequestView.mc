@@ -58,6 +58,7 @@ class WebRequestView extends Ui.View {
     }
 
     function onReceive(args) {
+    	System.println("On Receive");
         mMessage = args;
         Ui.requestUpdate();
     }

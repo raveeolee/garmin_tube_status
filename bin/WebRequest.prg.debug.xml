@@ -1,66 +1,99 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="14" pc="268435456" symbol="onMenu"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="15" pc="268435460" symbol="onMenu"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="16" pc="268435472" symbol="onMenu"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="19" pc="268435476" symbol="onSelect"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="20" pc="268435480" symbol="onSelect"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="21" pc="268435492" symbol="onSelect"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="25" pc="268435496" symbol="initialize"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="27" pc="268435500" symbol="initialize"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="28" pc="268435522" symbol="initialize"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="31" pc="268435533" symbol="makeRequest"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="32" pc="268435537" symbol="makeRequest"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="34" pc="268435560" symbol="makeRequest"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="49" pc="268435650" symbol="onReceive"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="50" pc="268435654" symbol="onReceive"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="51" pc="268435665" symbol="onReceive"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="52" pc="268435688" symbol="onReceive"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="58" pc="268435705" symbol="onReceive"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="62" pc="268435741" symbol="parseLines"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="63" pc="268435745" symbol="parseLines"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="64" pc="268435753" symbol="parseLines"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="65" pc="268435777" symbol="parseLines"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="66" pc="268435784" symbol="parseLines"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="67" pc="268435802" symbol="parseLines"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="70" pc="268435840" symbol="parseLines"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="74" pc="268435882" symbol="parseLines"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="15" pc="268435903" symbol="initialize"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="16" pc="268435907" symbol="initialize"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="20" pc="268435930" symbol="onLayout"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="21" pc="268435934" symbol="onLayout"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="22" pc="268435947" symbol="onLayout"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="26" pc="268435958" symbol="onShow"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="30" pc="268435963" symbol="onUpdate"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="31" pc="268435967" symbol="onUpdate"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="32" pc="268436003" symbol="onUpdate"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="34" pc="268436015" symbol="onUpdate"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="35" pc="268436035" symbol="onUpdate"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="37" pc="268436060" symbol="onUpdate"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="41" pc="268436152" symbol="displayLargeContent"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="45" pc="268436156" symbol="displayLargeContent"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="46" pc="268436169" symbol="displayLargeContent"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="48" pc="268436176" symbol="displayLargeContent"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="49" pc="268436191" symbol="displayLargeContent"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="52" pc="268436214" symbol="displayLargeContent"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="57" pc="268436275" symbol="onHide"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="60" pc="268436280" symbol="onReceive"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="61" pc="268436284" symbol="onReceive"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="62" pc="268436294" symbol="onReceive"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestApp.mc" lineNum="12" pc="268436311" symbol="initialize"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestApp.mc" lineNum="13" pc="268436315" symbol="initialize"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestApp.mc" lineNum="17" pc="268436338" symbol="onStart"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestApp.mc" lineNum="21" pc="268436343" symbol="onStop"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestApp.mc" lineNum="25" pc="268436348" symbol="getInitialView"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestApp.mc" lineNum="26" pc="268436352" symbol="getInitialView"/>
-<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestApp.mc" lineNum="27" pc="268436382" symbol="getInitialView"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="17" pc="268435456" symbol="onMenu"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="18" pc="268435460" symbol="onMenu"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="19" pc="268435472" symbol="onMenu"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="22" pc="268435476" symbol="onSelect"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="23" pc="268435480" symbol="onSelect"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="24" pc="268435492" symbol="onSelect"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="27" pc="268435496" symbol="onBack"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="29" pc="268435500" symbol="onBack"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="38" pc="268435504" symbol="onNextPageP"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="39" pc="268435508" symbol="onNextPageP"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="40" pc="268435521" symbol="onNextPageP"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="41" pc="268435550" symbol="onNextPageP"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="43" pc="268435578" symbol="onNextPageP"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="44" pc="268435629" symbol="onNextPageP"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="45" pc="268435651" symbol="onNextPageP"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="49" pc="268435677" symbol="onPreviousPageP"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="50" pc="268435681" symbol="onPreviousPageP"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="51" pc="268435698" symbol="onPreviousPageP"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="52" pc="268435720" symbol="onPreviousPageP"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="54" pc="268435742" symbol="onPreviousPageP"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="59" pc="268435797" symbol="initialize"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="60" pc="268435801" symbol="initialize"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="61" pc="268435823" symbol="initialize"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="64" pc="268435834" symbol="makeRequest"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="65" pc="268435838" symbol="makeRequest"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="67" pc="268435861" symbol="makeRequest"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="68" pc="268435874" symbol="makeRequest"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="69" pc="268435887" symbol="makeRequest"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="71" pc="268435896" symbol="makeRequest"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="86" pc="268435986" symbol="onReceive"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="87" pc="268435990" symbol="onReceive"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="88" pc="268436001" symbol="onReceive"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="89" pc="268436024" symbol="onReceive"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="94" pc="268436039" symbol="onReceive"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="97" pc="268436054" symbol="onReceive"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="101" pc="268436090" symbol="parseLines"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="102" pc="268436094" symbol="parseLines"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="103" pc="268436102" symbol="parseLines"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="104" pc="268436126" symbol="parseLines"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="105" pc="268436133" symbol="parseLines"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="106" pc="268436151" symbol="parseLines"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="109" pc="268436189" symbol="parseLines"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="113" pc="268436231" symbol="parseLines"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="114" pc="268436241" symbol="parseLines"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="118" pc="268436245" symbol="onKey"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="119" pc="268436249" symbol="onKey"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="120" pc="268436276" symbol="onKey"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="121" pc="268436299" symbol="onKey"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="122" pc="268436311" symbol="onKey"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="123" pc="268436334" symbol="onKey"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="126" pc="268436340" symbol="onKey"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="127" pc="268436367" symbol="onKey"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="128" pc="268436390" symbol="onKey"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="129" pc="268436402" symbol="onKey"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestDelegate.mc" lineNum="132" pc="268436408" symbol="onKey"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="15" pc="268436412" symbol="initialize"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="16" pc="268436416" symbol="initialize"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="20" pc="268436439" symbol="onLayout"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="21" pc="268436443" symbol="onLayout"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="22" pc="268436456" symbol="onLayout"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="26" pc="268436467" symbol="onShow"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="30" pc="268436472" symbol="onUpdate"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="31" pc="268436476" symbol="onUpdate"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="32" pc="268436512" symbol="onUpdate"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="34" pc="268436524" symbol="onUpdate"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="35" pc="268436544" symbol="onUpdate"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="37" pc="268436569" symbol="onUpdate"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="41" pc="268436661" symbol="displayLargeContent"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="45" pc="268436665" symbol="displayLargeContent"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="46" pc="268436678" symbol="displayLargeContent"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="48" pc="268436685" symbol="displayLargeContent"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="49" pc="268436700" symbol="displayLargeContent"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="52" pc="268436723" symbol="displayLargeContent"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="57" pc="268436784" symbol="onHide"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="60" pc="268436789" symbol="onReceive"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="61" pc="268436793" symbol="onReceive"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="62" pc="268436816" symbol="onReceive"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestView.mc" lineNum="63" pc="268436826" symbol="onReceive"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestApp.mc" lineNum="12" pc="268436843" symbol="initialize"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestApp.mc" lineNum="13" pc="268436847" symbol="initialize"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestApp.mc" lineNum="17" pc="268436870" symbol="onStart"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestApp.mc" lineNum="21" pc="268436875" symbol="onStop"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestApp.mc" lineNum="25" pc="268436880" symbol="getInitialView"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestApp.mc" lineNum="26" pc="268436884" symbol="getInitialView"/>
+<entry filename="/Users/kevinsqueak/garmin/connectiq-sdk-mac-2.4.5/samples/WebRequest/./source/WebRequestApp.mc" lineNum="27" pc="268436914" symbol="getInitialView"/>
 </pcToLineNum>
 <symbolTable>
+<entry field="true" id="18" symbol="shift"/>
 <entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389097" method="true" symbol="onKey"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
 <entry id="8389619" method="true" symbol="onSelect"/>
-<entry field="true" id="22" symbol="mDc"/>
+<entry field="true" id="27" symbol="mDc"/>
 <entry id="8388770" module="true" object="true" symbol="Strings"/>
 <entry id="8389280" method="true" symbol="getInitialView"/>
 <entry id="8388639" module="true" symbol="Graphics"/>
@@ -69,49 +102,56 @@
 <entry field="true" id="8389115" symbol="mMessage"/>
 <entry id="8388702" method="true" symbol="initialize"/>
 <entry field="true" id="16" symbol="AppName"/>
-<entry id="18" method="true" symbol="makeRequest"/>
+<entry id="23" method="true" symbol="makeRequest"/>
 <entry id="8389080" method="true" symbol="onMenu"/>
 <entry field="true" id="15" symbol="LauncherIcon"/>
+<entry id="8389081" method="true" symbol="onBack"/>
 <entry id="8389281" method="true" symbol="onStop"/>
-<entry id="20" method="true" symbol="parseLines"/>
+<entry id="25" method="true" symbol="parseLines"/>
 <entry id="8388771" module="true" object="true" symbol="Drawables"/>
 <entry id="8389122" method="true" symbol="onLayout"/>
 <entry id="11" object="true" symbol="WebRequestApp"/>
 <entry id="10" object="true" symbol="WebRequestView"/>
-<entry id="23" method="true" symbol="displayLargeContent"/>
+<entry id="28" method="true" symbol="displayLargeContent"/>
 <entry id="8389279" method="true" symbol="onStart"/>
 <entry field="true" id="17" symbol="notify"/>
 <entry id="9" object="true" symbol="WebRequestDelegate"/>
-<entry field="true" id="21" symbol="mModel"/>
+<entry id="21" method="true" symbol="onNextPageP"/>
+<entry id="22" method="true" symbol="onPreviousPageP"/>
+<entry field="true" id="26" symbol="mModel"/>
 <entry id="14" module="true" symbol="Layouts"/>
 <entry id="8389125" method="true" symbol="onHide"/>
 <entry id="8390088" module="true" object="true" symbol="JsonData"/>
 <entry id="8389844" symbol="responseType"/>
+<entry field="true" id="19" symbol="max"/>
 <entry id="13" module="true" symbol="Menus"/>
-<entry id="19" method="true" symbol="onReceive"/>
+<entry field="true" id="20" symbol="mResults"/>
+<entry id="24" method="true" symbol="onReceive"/>
 <entry id="8388772" module="true" object="true" symbol="Fonts"/>
 <entry field="true" id="12" symbol="mView"/>
 </symbolTable>
 <localVars>
-<entry endPc="268435533" name="handler" stackId="1" startPc="268435496"/>
-<entry endPc="268435741" name="responseCode" stackId="1" startPc="268435650"/>
-<entry endPc="268435741" name="data" stackId="2" startPc="268435650"/>
-<entry endPc="268435869" name="status" stackId="6" startPc="268435777"/>
-<entry endPc="268435869" name="name" stackId="5" startPc="268435777"/>
-<entry endPc="268435869" name="item" stackId="4" startPc="268435777"/>
-<entry endPc="268435882" name="i" stackId="3" startPc="268435777"/>
-<entry endPc="268435902" name="results" stackId="2" startPc="268435745"/>
-<entry endPc="268435903" name="tubesLinesData" stackId="1" startPc="268435741"/>
-<entry endPc="268435958" name="dc" stackId="1" startPc="268435930"/>
-<entry endPc="268436152" name="dc" stackId="1" startPc="268435963"/>
-<entry endPc="268436214" name="i" stackId="5" startPc="268436191"/>
-<entry endPc="268436274" name="result" stackId="4" startPc="268436156"/>
-<entry endPc="268436274" name="max" stackId="3" startPc="268436156"/>
-<entry endPc="268436275" name="dc" stackId="1" startPc="268436152"/>
-<entry endPc="268436275" name="content" stackId="2" startPc="268436152"/>
-<entry endPc="268436311" name="args" stackId="1" startPc="268436280"/>
-<entry endPc="268436343" name="state" stackId="1" startPc="268436338"/>
-<entry endPc="268436348" name="state" stackId="1" startPc="268436343"/>
+<entry endPc="268435834" name="handler" stackId="1" startPc="268435797"/>
+<entry endPc="268436051" name="results" stackId="3" startPc="268436001"/>
+<entry endPc="268436090" name="responseCode" stackId="1" startPc="268435986"/>
+<entry endPc="268436090" name="data" stackId="2" startPc="268435986"/>
+<entry endPc="268436218" name="status" stackId="6" startPc="268436126"/>
+<entry endPc="268436218" name="name" stackId="5" startPc="268436126"/>
+<entry endPc="268436218" name="item" stackId="4" startPc="268436126"/>
+<entry endPc="268436231" name="i" stackId="3" startPc="268436126"/>
+<entry endPc="268436244" name="results" stackId="2" startPc="268436094"/>
+<entry endPc="268436245" name="tubesLinesData" stackId="1" startPc="268436090"/>
+<entry endPc="268436412" name="evt" stackId="1" startPc="268436245"/>
+<entry endPc="268436467" name="dc" stackId="1" startPc="268436439"/>
+<entry endPc="268436661" name="dc" stackId="1" startPc="268436472"/>
+<entry endPc="268436723" name="i" stackId="5" startPc="268436700"/>
+<entry endPc="268436783" name="result" stackId="4" startPc="268436665"/>
+<entry endPc="268436783" name="max" stackId="3" startPc="268436665"/>
+<entry endPc="268436784" name="dc" stackId="1" startPc="268436661"/>
+<entry endPc="268436784" name="content" stackId="2" startPc="268436661"/>
+<entry endPc="268436843" name="args" stackId="1" startPc="268436789"/>
+<entry endPc="268436875" name="state" stackId="1" startPc="268436870"/>
+<entry endPc="268436880" name="state" stackId="1" startPc="268436875"/>
 </localVars>
 <annotations/>
 <functions>
@@ -119,6 +159,15 @@
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onSelect" parent="WebRequestDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onBack" parent="WebRequestDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onNextPageP" parent="WebRequestDelegate">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onPreviousPageP" parent="WebRequestDelegate">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="WebRequestDelegate">
@@ -135,6 +184,10 @@
 </functionEntry>
 <functionEntry accessMode="public" name="parseLines" parent="WebRequestDelegate">
 <param id="tubesLinesData"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onKey" parent="WebRequestDelegate">
+<param id="evt"/>
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="WebRequestView">
@@ -189,6 +242,6 @@
 <dataEntry offset="472" parentId="Rez" symbolId="Layouts" type="module"/>
 <dataEntry offset="503" parentId="Rez" symbolId="Strings" type="module"/>
 <dataEntry offset="542" parentId="globals" symbolId="WebRequestDelegate" type="class"/>
-<dataEntry offset="637" parentId="globals" symbolId="WebRequestView" type="class"/>
+<dataEntry offset="693" parentId="globals" symbolId="WebRequestView" type="class"/>
 </dataEntryOffsetMappings>
 </debugInfo>

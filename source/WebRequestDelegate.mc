@@ -9,6 +9,9 @@ using Toybox.WatchUi as Ui;
 
 class WebRequestDelegate extends Ui.BehaviorDelegate {
     var notify;
+    var shift = 0;
+    var max = 8;
+    var mResults;
 
     // Handle menu button press
     function onMenu() {
@@ -21,18 +24,52 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
         return true;
     }
     
+    function onBack()
+    {
+    	return true;
+    }
+   
+    
+   //function onNextPage() {
+    //	System.println("NEXT PAGE");
+      //  return true;
+   //}
+    
+    function onNextPageP() {
+    	if (mResults != null) {
+    		if (max > mResults.size()) {
+    			max = mResults.size();
+    		}
+    		notify.invoke(mResults.slice(shift, max));
+    		shift += max;
+    		max   += max;
+    	}
+    }
+    
+    function onPreviousPageP() {
+    	if (shift != 0) {
+    		shift -= max;
+    		max   -= max;
+    		
+    		notify.invoke(mResults.slice(shift, max));
+    	}
+    }
+    
     // Set up the callback to the view
     function initialize(handler) {
-        //Ui.BehaviorDelegate.initialize();
-        Ui.View.initialize();
+        Ui.BehaviorDelegate.initialize();
         notify = handler;
     }
 
     function makeRequest() {
         notify.invoke("Requesting\nTFL Status");
+        
+        shift = 0;
+        max = 8;
+        mResults = null;
 		
         Comm.makeWebRequest(//url, parameters, options, responseCallback) (
-            "https://api-neon.tfl.gov.uk/Line/Mode/tube,dlr,overground/Status?detail=false",
+            "https://api-neon.tfl.gov.uk/Line/Mode/tube/Status?detail=false",
             {
             },
             {
@@ -49,10 +86,12 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
     function onReceive(responseCode, data) {
         if (responseCode == 200) {
             notify.invoke("TFL status received");
-            parseLines(data);
+            var results = parseLines(data);
             
             //System.println(data);
-            //notify.invoke(data.toString());
+            //notify.invoke(results);
+            
+            onNextPageP();
             
         } else {
             notify.invoke("Failed to load\nError: " + responseCode.toString());
@@ -71,6 +110,25 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
         }
         
         //System.println(results);
-        notify.invoke(results);
+        mResults = results;
+        return results;
+        // notify.invoke(results.slice());
+    }
+    
+    function onKey(evt) {
+        if (evt.getKey() == Ui.KEY_DOWN) {
+        	System.println("KEY DOWN");
+            onNextPageP();
+            System.println("Out");
+            return true;
+        } 
+        
+        if (evt.getKey() == Ui.KEY_UP) {
+        	System.println("KEY UP");
+            onPreviousPageP();
+            return true;
+        }
+
+        return true;
     }
 }
