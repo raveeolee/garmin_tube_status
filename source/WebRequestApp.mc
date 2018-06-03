@@ -19,6 +19,7 @@ class WebRequestApp extends App.AppBase {
 
     // onStop() is called when your application is exiting
     function onStop(state) {
+    	System.println("Stop called");
     }
 
     // Return the initial view of your application here

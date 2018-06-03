@@ -10,7 +10,8 @@ using Toybox.WatchUi as Ui;
 class WebRequestDelegate extends Ui.BehaviorDelegate {
     var notify;
     var shift = 0;
-    var max = 8;
+    var step = 8;
+    var max = step;
     var mResults;
 
     // Handle menu button press
@@ -23,34 +24,32 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
         makeRequest();
         return true;
     }
-    
-    function onBack()
-    {
-    	return true;
-    }
-   
-    
-   //function onNextPage() {
-    //	System.println("NEXT PAGE");
-      //  return true;
-   //}
-    
-    function onNextPageP() {
+ 
+    function onNextPageP() {    	
     	if (mResults != null) {
+    		var tMax = max;
     		if (max > mResults.size()) {
-    			max = mResults.size();
+    			tMax = mResults.size();
     		}
-    		notify.invoke(mResults.slice(shift, max));
-    		shift += max;
-    		max   += max;
+    		
+    		notify.invoke(mResults.slice(shift, tMax));
+    		
+    		if (max < mResults.size()) {
+    			shift += step;
+    			max += step;
+    		}
+    		
+    		//shift += step;
+    		//max   += step;
     	}
     }
     
     function onPreviousPageP() {
-    	if (shift != 0) {
-    		shift -= max;
-    		max   -= max;
+    	if (shift > 0) {
+    		shift -= step;
+    		max   -= step;
     		
+    		System.println("shift: " + shift + " max: " + max);
     		notify.invoke(mResults.slice(shift, max));
     	}
     }
@@ -64,9 +63,7 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
     function makeRequest() {
         notify.invoke("Requesting\nTFL Status");
         
-        shift = 0;
-        max = 8;
-        mResults = null;
+        resetState();
 		
         Comm.makeWebRequest(//url, parameters, options, responseCallback) (
             "https://api-neon.tfl.gov.uk/Line/Mode/tube/Status?detail=false",
@@ -80,7 +77,11 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
         );
     }
 
-    
+    function resetState() {
+    	shift = 0;
+    	max = 8;
+    	mResults = null;
+    }
 
     // Receive the data from the web request
     function onReceive(responseCode, data) {
@@ -116,19 +117,51 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
     }
     
     function onKey(evt) {
+    	var view = new WebRequestView();
         if (evt.getKey() == Ui.KEY_DOWN) {
         	System.println("KEY DOWN");
-            onNextPageP();
-            System.println("Out");
-            return true;
+            //onNextPageP();
+            // System.println("Out");
+           
+           onNextPageP();
+           Ui.pushView(view, self, Ui.SLIDE_IMMEDIATE);           	    
+           return true;
         } 
         
         if (evt.getKey() == Ui.KEY_UP) {
         	System.println("KEY UP");
             onPreviousPageP();
+            Ui.pushView(view, self, Ui.SLIDE_IMMEDIATE);
             return true;
         }
 
         return true;
     }
+    
+    // When a next page behavior occurs, onNextPage() is called.
+    // @return [Boolean] true if handled, false otherwise
+    //function onNextPage() {
+    //	onNextPageP();
+        //return true;   
+    //}
+
+    // When a previous page behavior occurs, onPreviousPage() is called.
+    // @return [Boolean] true if handled, false otherwise
+    //function onPreviousPage() {}
+
+    // When a menu behavior occurs, onMenu() is called.
+    // @return [Boolean] true if handled, false otherwise
+    //function onMenu() {}
+
+    // When a back behavior occurs, onBack() is called.
+    // @return [Boolean] true if handled, false otherwise
+    //function onBack();
+
+    // When a next mode behavior occurs, onNextMode() is called.
+    // @return [Boolean] true if handled, false otherwise
+    //function onNextMode() {}
+
+    // When a previous mode behavior occurs, onPreviousMode() is called.
+    // @return [Boolean] true if handled, false otherwise
+    //function onPreviousMode() {}
 }
