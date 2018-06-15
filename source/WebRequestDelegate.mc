@@ -13,6 +13,7 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
     var step = 8;
     var max = step;
     var mResults;
+    var mNext;
 
     // Handle menu button press
     function onMenu() {
@@ -32,26 +33,26 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
     			tMax = mResults.size();
     		}
     		
-    		notify.invoke(mResults.slice(shift, tMax));
-    		
+    		// notify.invoke(mResults.slice(shift, tMax));
+    		Ui.pushView(new ResultsView(mResults.slice(shift, tMax)), self, Ui.SLIDE_IMMEDIATE);
+    	
     		if (max < mResults.size()) {
     			shift += step;
     			max += step;
     		}
-    		
-    		//shift += step;
-    		//max   += step;
     	}
     }
     
     function onPreviousPageP() {
-    	if (shift > 0) {
-    		shift -= step;
-    		max   -= step;
+    	//if (shift > 0) {
+    	//	shift -= step;
+    	//	max   -= step;
     		
-    		System.println("shift: " + shift + " max: " + max);
-    		notify.invoke(mResults.slice(shift, max));
-    	}
+    	//	System.println("shift: " + shift + " max: " + max);
+    		//notify.invoke(mResults.slice(shift, max));
+    	//	Ui.pushView(new ResultsView(mResults.slice(shift, max)), self, Ui.SLIDE_IMMEDIATE);
+    	//}
+    	Ui.popView(Ui.SLIDE_IMMEDIATE);
     }
     
     // Set up the callback to the view
@@ -71,7 +72,7 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
             },
             {
                 "Content-Type" => Comm.REQUEST_CONTENT_TYPE_URL_ENCODED,
-                :responseType => Comm.HTTP_RESPONSE_CONTENT_TYPE_JSON
+                :responseType  => Comm.HTTP_RESPONSE_CONTENT_TYPE_JSON
             },
             method(:onReceive)
         );
@@ -88,13 +89,10 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
         if (responseCode == 200) {
             notify.invoke("TFL status received");
             var results = parseLines(data);
-            
-            //System.println(data);
-            //notify.invoke(results);
-            
             onNextPageP();
-            
+           	
         } else {
+        	// TODO errors
             notify.invoke("Failed to load\nError: " + responseCode.toString());
         }
     }
@@ -124,14 +122,14 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
             // System.println("Out");
            
            onNextPageP();
-           Ui.pushView(view, self, Ui.SLIDE_IMMEDIATE);           	    
+           //Ui.pushView(view, self, Ui.SLIDE_IMMEDIATE);           	    
            return true;
         } 
         
         if (evt.getKey() == Ui.KEY_UP) {
         	System.println("KEY UP");
             onPreviousPageP();
-            Ui.pushView(view, self, Ui.SLIDE_IMMEDIATE);
+            //Ui.pushView(view, self, Ui.SLIDE_IMMEDIATE);
             return true;
         }
 
@@ -155,7 +153,10 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
 
     // When a back behavior occurs, onBack() is called.
     // @return [Boolean] true if handled, false otherwise
-    //function onBack();
+    function onBack() {
+    	Ui.popView(Ui.SLIDE_IMMEDIATE);
+    	return true;
+    }
 
     // When a next mode behavior occurs, onNextMode() is called.
     // @return [Boolean] true if handled, false otherwise
@@ -163,5 +164,7 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
 
     // When a previous mode behavior occurs, onPreviousMode() is called.
     // @return [Boolean] true if handled, false otherwise
-    //function onPreviousMode() {}
+    //function onPreviousMode() {
+    //	Ui.popView(Ui.SLIDE_IMMEDIATE);
+    //}
 }
