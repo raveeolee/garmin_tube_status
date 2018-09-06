@@ -8,11 +8,12 @@ using Toybox.Communications as Comm;
 using Toybox.WatchUi as Ui;
 
 class WelcomePageDelegate extends Ui.BehaviorDelegate {
-    hidden var notify;
-    hidden var shift = 0;
-    hidden var step = 8;
-    hidden var max = step;
-    hidden var showDisrupted = false;
+    hidden var _notify;
+    hidden var _shift = 0;
+    hidden var _step = 8;
+    hidden var _max = _step;
+    hidden var _showDisrupted = false;
+    hidden var _progressBar;
 
     // Handle menu button press
     function onMenu() {
@@ -28,11 +29,11 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
     // Set up the callback to the view
     function initialize(handler) {
         Ui.BehaviorDelegate.initialize();
-        notify = handler;
+        _notify = handler;
     }
 
     function makeRequestTo(toDo, tflType) {
-        notify.invoke("Requesting\nTFL Status");
+        _notify.invoke("Requesting\nTFL Status");
         resetState();
         
         var headers = {
@@ -60,16 +61,23 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
     }
     
     function showDisruptedLines() {
-    	showDisrupted = true;     	
-    	notify.invoke("Receiving TFL updates...");
-    	   	
+    	_showDisrupted = true;     	
+    	// notify.invoke("Receiving TFL updates...");
+    	
+    	_progressBar = new Ui.ProgressBar(
+            "Receiving TFL updates......",
+            0
+        );
+    	
+    	Ui.pushView(_progressBar, self, Ui.SLIDE_DOWN);
+    	    	   	
     	makeRequestTo(method(:onReceive), "tube");
     	makeRequestTo(method(:onReceive), "dlr,overground,tflrail");
     }
 
     function resetState() {
-    	shift = 0;
-    	max = 8;
+    	_shift = 0;
+    	_max = 8;
     }
     
     hidden var _allLines = [];
@@ -82,7 +90,7 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
             if (responseCode == -104) {
             	message += ".\nPlz, check connection";
             }            
-            notify.invoke(message);
+            _notify.invoke(message);
             return;
     	}
    	
@@ -92,11 +100,14 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
         _allLines.addAll(allLines);
         
         if (isFirst) {
+        	_progressBar.setProgress(50);
         	return;
         }
+        
+        _progressBar.setProgress(100);
             
         var disrupted = [];
-        if (showDisrupted) {
+        if (_showDisrupted) {
             disrupted = filterDisrupted(_allLines);
         }
                 
@@ -108,12 +119,12 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
     }
             
     function showResults(results) {    	
-    	Ui.pushView(new ResultsView(results.slice(shift, step)), 
-    				new ResultsPageDelegate(results, shift, step), Ui.SLIDE_IMMEDIATE); 
+    	Ui.pushView(new ResultsView(results.slice(_shift, _step)), 
+    				new ResultsPageDelegate(results, _shift, _step), Ui.SLIDE_IMMEDIATE); 
     }
     
     function showMessagePage(results, allLines) {
-    	Ui.pushView(new ResultsView(results.slice(shift, step)), 
+    	Ui.pushView(new ResultsView(results.slice(_shift, _step)), 
     				new ResultsMessageDelegate(results, allLines), Ui.SLIDE_IMMEDIATE); 
     }
     

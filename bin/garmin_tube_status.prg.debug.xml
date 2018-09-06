@@ -79,161 +79,161 @@
         <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultsPageDelegate.mc" id="22" lineNum="66" pc="268436745" symbol="onBack"/>
         <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultsPageDelegate.mc" id="23" lineNum="69" pc="268436749" symbol="showPreviousPage"/>
         <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultsPageDelegate.mc" id="23" lineNum="70" pc="268436753" symbol="showPreviousPage"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="25" lineNum="18" pc="268436782" symbol="onMenu"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="25" lineNum="19" pc="268436786" symbol="onMenu"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="25" lineNum="20" pc="268436798" symbol="onMenu"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="26" lineNum="23" pc="268436802" symbol="onSelect"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="26" lineNum="24" pc="268436806" symbol="onSelect"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="26" lineNum="25" pc="268436818" symbol="onSelect"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="27" lineNum="29" pc="268436822" symbol="initialize"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="27" lineNum="30" pc="268436826" symbol="initialize"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="27" lineNum="31" pc="268436848" symbol="initialize"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="28" lineNum="34" pc="268436859" symbol="makeRequestTo"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="28" lineNum="35" pc="268436863" symbol="makeRequestTo"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="28" lineNum="36" pc="268436886" symbol="makeRequestTo"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="28" lineNum="38" pc="268436898" symbol="makeRequestTo"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="28" lineNum="42" pc="268436926" symbol="makeRequestTo"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="29" lineNum="58" pc="268437031" symbol="showAllLines"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="29" lineNum="59" pc="268437035" symbol="showAllLines"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="30" lineNum="62" pc="268437064" symbol="showDisruptedLines"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="30" lineNum="63" pc="268437068" symbol="showDisruptedLines"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="30" lineNum="64" pc="268437078" symbol="showDisruptedLines"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="30" lineNum="66" pc="268437101" symbol="showDisruptedLines"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="30" lineNum="67" pc="268437134" symbol="showDisruptedLines"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="31" lineNum="70" pc="268437168" symbol="resetState"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="31" lineNum="71" pc="268437172" symbol="resetState"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="31" lineNum="72" pc="268437185" symbol="resetState"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="78" pc="268437199" symbol="onReceive"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="79" pc="268437203" symbol="onReceive"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="81" pc="268437214" symbol="onReceive"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="82" pc="268437233" symbol="onReceive"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="83" pc="268437244" symbol="onReceive"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="85" pc="268437257" symbol="onReceive"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="86" pc="268437277" symbol="onReceive"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="89" pc="268437281" symbol="onReceive"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="90" pc="268437306" symbol="onReceive"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="92" pc="268437321" symbol="onReceive"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="94" pc="268437341" symbol="onReceive"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="95" pc="268437346" symbol="onReceive"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="98" pc="268437350" symbol="onReceive"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="99" pc="268437358" symbol="onReceive"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="100" pc="268437369" symbol="onReceive"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="103" pc="268437393" symbol="onReceive"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="104" pc="268437413" symbol="onReceive"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="106" pc="268437438" symbol="onReceive"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="33" lineNum="110" pc="268437478" symbol="showResults"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="33" lineNum="111" pc="268437482" symbol="showResults"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="34" lineNum="115" pc="268437600" symbol="showMessagePage"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="34" lineNum="116" pc="268437604" symbol="showMessagePage"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="35" lineNum="120" pc="268437708" symbol="filterDisrupted"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="35" lineNum="121" pc="268437712" symbol="filterDisrupted"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="35" lineNum="122" pc="268437720" symbol="filterDisrupted"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="35" lineNum="123" pc="268437744" symbol="filterDisrupted"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="35" lineNum="124" pc="268437751" symbol="filterDisrupted"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="35" lineNum="125" pc="268437772" symbol="filterDisrupted"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="35" lineNum="129" pc="268437802" symbol="filterDisrupted"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="36" lineNum="132" pc="268437806" symbol="parseLines"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="36" lineNum="133" pc="268437810" symbol="parseLines"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="36" lineNum="134" pc="268437818" symbol="parseLines"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="36" lineNum="135" pc="268437842" symbol="parseLines"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="36" lineNum="136" pc="268437849" symbol="parseLines"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="36" lineNum="137" pc="268437867" symbol="parseLines"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="36" lineNum="139" pc="268437905" symbol="parseLines"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="36" lineNum="141" pc="268437947" symbol="parseLines"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="37" lineNum="162" pc="268437951" symbol="onBack"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="37" lineNum="163" pc="268437955" symbol="onBack"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="37" lineNum="164" pc="268437983" symbol="onBack"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="39" lineNum="14" pc="268437987" symbol="initialize"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="39" lineNum="15" pc="268437991" symbol="initialize"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="39" lineNum="17" pc="268438013" symbol="initialize"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="39" lineNum="18" pc="268438023" symbol="initialize"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="40" lineNum="21" pc="268438034" symbol="onKey"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="40" lineNum="22" pc="268438038" symbol="onKey"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="40" lineNum="23" pc="268438065" symbol="onKey"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="40" lineNum="24" pc="268438085" symbol="onKey"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="40" lineNum="27" pc="268438091" symbol="onKey"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="40" lineNum="28" pc="268438118" symbol="onKey"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="40" lineNum="29" pc="268438130" symbol="onKey"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="40" lineNum="31" pc="268438136" symbol="onKey"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="41" lineNum="34" pc="268438140" symbol="onSelect"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="41" lineNum="35" pc="268438144" symbol="onSelect"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="41" lineNum="36" pc="268438164" symbol="onSelect"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="42" lineNum="39" pc="268438168" symbol="showNextPage"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="42" lineNum="40" pc="268438172" symbol="showNextPage"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="43" lineNum="43" pc="268438214" symbol="onBack"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="43" lineNum="44" pc="268438218" symbol="onBack"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="44" lineNum="47" pc="268438247" symbol="showPreviousPage"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="44" lineNum="48" pc="268438251" symbol="showPreviousPage"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/TubeRequestApp.mc" id="46" lineNum="12" pc="268438280" symbol="initialize"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/TubeRequestApp.mc" id="46" lineNum="13" pc="268438284" symbol="initialize"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/TubeRequestApp.mc" id="47" lineNum="17" pc="268438307" symbol="onStart"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/TubeRequestApp.mc" id="48" lineNum="21" pc="268438312" symbol="onStop"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/TubeRequestApp.mc" id="48" lineNum="22" pc="268438316" symbol="onStop"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/TubeRequestApp.mc" id="49" lineNum="26" pc="268438340" symbol="getInitialView"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/TubeRequestApp.mc" id="49" lineNum="27" pc="268438344" symbol="getInitialView"/>
-        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/TubeRequestApp.mc" id="49" lineNum="28" pc="268438374" symbol="getInitialView"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="25" lineNum="19" pc="268436782" symbol="onMenu"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="25" lineNum="20" pc="268436786" symbol="onMenu"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="25" lineNum="21" pc="268436798" symbol="onMenu"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="26" lineNum="24" pc="268436802" symbol="onSelect"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="26" lineNum="25" pc="268436806" symbol="onSelect"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="26" lineNum="26" pc="268436818" symbol="onSelect"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="27" lineNum="30" pc="268436822" symbol="initialize"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="27" lineNum="31" pc="268436826" symbol="initialize"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="27" lineNum="32" pc="268436848" symbol="initialize"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="28" lineNum="35" pc="268436859" symbol="makeRequestTo"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="28" lineNum="36" pc="268436863" symbol="makeRequestTo"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="28" lineNum="37" pc="268436886" symbol="makeRequestTo"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="28" lineNum="39" pc="268436898" symbol="makeRequestTo"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="28" lineNum="43" pc="268436926" symbol="makeRequestTo"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="29" lineNum="59" pc="268437031" symbol="showAllLines"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="29" lineNum="60" pc="268437035" symbol="showAllLines"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="30" lineNum="63" pc="268437064" symbol="showDisruptedLines"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="30" lineNum="64" pc="268437068" symbol="showDisruptedLines"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="30" lineNum="67" pc="268437078" symbol="showDisruptedLines"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="30" lineNum="72" pc="268437122" symbol="showDisruptedLines"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="30" lineNum="74" pc="268437160" symbol="showDisruptedLines"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="30" lineNum="75" pc="268437193" symbol="showDisruptedLines"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="31" lineNum="78" pc="268437227" symbol="resetState"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="31" lineNum="79" pc="268437231" symbol="resetState"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="31" lineNum="80" pc="268437244" symbol="resetState"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="86" pc="268437258" symbol="onReceive"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="87" pc="268437262" symbol="onReceive"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="89" pc="268437273" symbol="onReceive"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="90" pc="268437292" symbol="onReceive"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="91" pc="268437303" symbol="onReceive"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="93" pc="268437316" symbol="onReceive"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="94" pc="268437336" symbol="onReceive"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="97" pc="268437340" symbol="onReceive"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="98" pc="268437365" symbol="onReceive"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="100" pc="268437380" symbol="onReceive"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="102" pc="268437400" symbol="onReceive"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="103" pc="268437405" symbol="onReceive"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="104" pc="268437428" symbol="onReceive"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="107" pc="268437432" symbol="onReceive"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="109" pc="268437455" symbol="onReceive"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="110" pc="268437463" symbol="onReceive"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="111" pc="268437474" symbol="onReceive"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="114" pc="268437498" symbol="onReceive"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="115" pc="268437518" symbol="onReceive"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="32" lineNum="117" pc="268437543" symbol="onReceive"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="33" lineNum="121" pc="268437583" symbol="showResults"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="33" lineNum="122" pc="268437587" symbol="showResults"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="34" lineNum="126" pc="268437705" symbol="showMessagePage"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="34" lineNum="127" pc="268437709" symbol="showMessagePage"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="35" lineNum="131" pc="268437813" symbol="filterDisrupted"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="35" lineNum="132" pc="268437817" symbol="filterDisrupted"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="35" lineNum="133" pc="268437825" symbol="filterDisrupted"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="35" lineNum="134" pc="268437849" symbol="filterDisrupted"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="35" lineNum="135" pc="268437856" symbol="filterDisrupted"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="35" lineNum="136" pc="268437877" symbol="filterDisrupted"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="35" lineNum="140" pc="268437907" symbol="filterDisrupted"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="36" lineNum="143" pc="268437911" symbol="parseLines"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="36" lineNum="144" pc="268437915" symbol="parseLines"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="36" lineNum="145" pc="268437923" symbol="parseLines"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="36" lineNum="146" pc="268437947" symbol="parseLines"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="36" lineNum="147" pc="268437954" symbol="parseLines"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="36" lineNum="148" pc="268437972" symbol="parseLines"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="36" lineNum="150" pc="268438010" symbol="parseLines"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="36" lineNum="152" pc="268438052" symbol="parseLines"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="37" lineNum="173" pc="268438056" symbol="onBack"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="37" lineNum="174" pc="268438060" symbol="onBack"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/WelcomePageDelegate.mc" id="37" lineNum="175" pc="268438088" symbol="onBack"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="39" lineNum="14" pc="268438092" symbol="initialize"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="39" lineNum="15" pc="268438096" symbol="initialize"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="39" lineNum="17" pc="268438118" symbol="initialize"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="39" lineNum="18" pc="268438128" symbol="initialize"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="40" lineNum="21" pc="268438139" symbol="onKey"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="40" lineNum="22" pc="268438143" symbol="onKey"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="40" lineNum="23" pc="268438170" symbol="onKey"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="40" lineNum="24" pc="268438190" symbol="onKey"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="40" lineNum="27" pc="268438196" symbol="onKey"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="40" lineNum="28" pc="268438223" symbol="onKey"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="40" lineNum="29" pc="268438235" symbol="onKey"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="40" lineNum="31" pc="268438241" symbol="onKey"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="41" lineNum="34" pc="268438245" symbol="onSelect"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="41" lineNum="35" pc="268438249" symbol="onSelect"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="41" lineNum="36" pc="268438269" symbol="onSelect"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="42" lineNum="39" pc="268438273" symbol="showNextPage"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="42" lineNum="40" pc="268438277" symbol="showNextPage"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="43" lineNum="43" pc="268438319" symbol="onBack"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="43" lineNum="44" pc="268438323" symbol="onBack"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="44" lineNum="47" pc="268438352" symbol="showPreviousPage"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/ResultMessageDelegate.mc" id="44" lineNum="48" pc="268438356" symbol="showPreviousPage"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/TubeRequestApp.mc" id="46" lineNum="12" pc="268438385" symbol="initialize"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/TubeRequestApp.mc" id="46" lineNum="13" pc="268438389" symbol="initialize"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/TubeRequestApp.mc" id="47" lineNum="17" pc="268438412" symbol="onStart"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/TubeRequestApp.mc" id="48" lineNum="21" pc="268438417" symbol="onStop"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/TubeRequestApp.mc" id="48" lineNum="22" pc="268438421" symbol="onStop"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/TubeRequestApp.mc" id="49" lineNum="26" pc="268438445" symbol="getInitialView"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/TubeRequestApp.mc" id="49" lineNum="27" pc="268438449" symbol="getInitialView"/>
+        <entry filename="/Users/olehl/eclipse-workspace/garmin_tube_status/source/TubeRequestApp.mc" id="49" lineNum="28" pc="268438479" symbol="getInitialView"/>
     </pcToLineNum>
     <symbolTable>
-        <entry field="true" id="20" symbol="shift"/>
         <entry id="12" object="true" symbol="WelcomePageDelegate"/>
-        <entry field="true" id="21" symbol="step"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
-        <entry field="true" id="41" symbol="_notify"/>
+        <entry field="true" id="19" symbol="_notify"/>
         <entry id="8389097" method="true" symbol="onKey"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry id="38" method="true" symbol="showNextPage"/>
+        <entry id="39" method="true" symbol="showNextPage"/>
         <entry id="8389619" method="true" symbol="onSelect"/>
         <entry field="true" id="16" symbol="mDc"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
-        <entry id="27" method="true" symbol="resetState"/>
+        <entry id="28" method="true" symbol="resetState"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8388639" module="true" symbol="Graphics"/>
-        <entry field="true" id="23" symbol="showDisrupted"/>
+        <entry field="true" id="24" symbol="_progressBar"/>
         <entry id="8388769" module="true" object="true" symbol="Rez"/>
         <entry id="8389123" method="true" symbol="onShow"/>
-        <entry field="true" id="44" symbol="_max"/>
-        <entry id="29" method="true" symbol="showResults"/>
-        <entry field="true" id="43" symbol="_step"/>
+        <entry field="true" id="22" symbol="_max"/>
+        <entry id="30" method="true" symbol="showResults"/>
+        <entry field="true" id="21" symbol="_step"/>
         <entry field="true" id="8389115" symbol="mMessage"/>
-        <entry field="true" id="45" symbol="_next"/>
+        <entry field="true" id="42" symbol="_next"/>
         <entry id="8388702" method="true" symbol="initialize"/>
-        <entry field="true" id="36" symbol="AppName"/>
-        <entry id="26" method="true" symbol="showDisruptedLines"/>
+        <entry field="true" id="37" symbol="AppName"/>
+        <entry id="27" method="true" symbol="showDisruptedLines"/>
         <entry id="8389594" symbol="headers"/>
-        <entry field="true" id="37" symbol="_results"/>
+        <entry field="true" id="38" symbol="_results"/>
         <entry id="8389080" method="true" symbol="onMenu"/>
-        <entry field="true" id="42" symbol="_shift"/>
-        <entry field="true" id="35" symbol="LauncherIcon"/>
+        <entry field="true" id="20" symbol="_shift"/>
+        <entry field="true" id="36" symbol="LauncherIcon"/>
         <entry id="8389081" method="true" symbol="onBack"/>
         <entry id="8388786" method="true" symbol="method"/>
         <entry id="14" object="true" symbol="TubeRequestApp"/>
         <entry id="8389281" method="true" symbol="onStop"/>
-        <entry id="32" method="true" symbol="parseLines"/>
+        <entry id="33" method="true" symbol="parseLines"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
-        <entry id="31" method="true" symbol="filterDisrupted"/>
+        <entry id="32" method="true" symbol="filterDisrupted"/>
         <entry id="17" method="true" symbol="displayLargeContent"/>
-        <entry id="25" method="true" symbol="showAllLines"/>
+        <entry id="26" method="true" symbol="showAllLines"/>
         <entry id="11" object="true" symbol="ResultsPageDelegate"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry field="true" id="19" symbol="notify"/>
         <entry id="10" object="true" symbol="ResultsView"/>
-        <entry id="39" method="true" symbol="showPreviousPage"/>
+        <entry id="40" method="true" symbol="showPreviousPage"/>
         <entry field="true" id="15" symbol="mModel"/>
-        <entry field="true" id="28" symbol="_allLines"/>
-        <entry id="34" module="true" symbol="Layouts"/>
+        <entry field="true" id="29" symbol="_allLines"/>
+        <entry id="35" module="true" symbol="Layouts"/>
         <entry id="8389125" method="true" symbol="onHide"/>
+        <entry field="true" id="23" symbol="_showDisrupted"/>
         <entry id="13" object="true" symbol="ResultsMessageDelegate"/>
         <entry id="8390088" module="true" object="true" symbol="JsonData"/>
         <entry id="9" object="true" symbol="WelcomeView"/>
         <entry id="8389844" symbol="responseType"/>
-        <entry field="true" id="22" symbol="max"/>
-        <entry id="33" module="true" symbol="Menus"/>
+        <entry id="34" module="true" symbol="Menus"/>
         <entry id="18" method="true" symbol="onReceive"/>
         <entry id="8388772" module="true" object="true" symbol="Fonts"/>
-        <entry id="24" method="true" symbol="makeRequestTo"/>
-        <entry id="30" method="true" symbol="showMessagePage"/>
-        <entry field="true" id="40" symbol="mView"/>
+        <entry id="25" method="true" symbol="makeRequestTo"/>
+        <entry id="31" method="true" symbol="showMessagePage"/>
+        <entry field="true" id="41" symbol="mView"/>
     </symbolTable>
     <localVars>
         <entry endPc="268435511" name="dc" stackId="1" startPc="268435483"/>
@@ -264,31 +264,31 @@
         <entry endPc="268437030" name="headers" stackId="3" startPc="268436863"/>
         <entry endPc="268437031" name="toDo" stackId="1" startPc="268436859"/>
         <entry endPc="268437031" name="tflType" stackId="2" startPc="268436859"/>
-        <entry endPc="268437278" name="message" stackId="3" startPc="268437214"/>
-        <entry endPc="268437477" name="isFirst" stackId="4" startPc="268437203"/>
-        <entry endPc="268437477" name="allLines" stackId="5" startPc="268437203"/>
-        <entry endPc="268437477" name="disrupted" stackId="6" startPc="268437203"/>
-        <entry endPc="268437478" name="responseCode" stackId="1" startPc="268437199"/>
-        <entry endPc="268437478" name="data" stackId="2" startPc="268437199"/>
-        <entry endPc="268437600" name="results" stackId="1" startPc="268437478"/>
-        <entry endPc="268437708" name="allLines" stackId="2" startPc="268437600"/>
-        <entry endPc="268437708" name="results" stackId="1" startPc="268437600"/>
-        <entry endPc="268437789" name="item" stackId="4" startPc="268437744"/>
-        <entry endPc="268437802" name="i" stackId="3" startPc="268437744"/>
-        <entry endPc="268437805" name="temp" stackId="2" startPc="268437712"/>
-        <entry endPc="268437806" name="results" stackId="1" startPc="268437708"/>
-        <entry endPc="268437934" name="status" stackId="6" startPc="268437842"/>
-        <entry endPc="268437934" name="name" stackId="5" startPc="268437842"/>
-        <entry endPc="268437934" name="item" stackId="4" startPc="268437842"/>
-        <entry endPc="268437947" name="i" stackId="3" startPc="268437842"/>
-        <entry endPc="268437950" name="results" stackId="2" startPc="268437810"/>
-        <entry endPc="268437951" name="tubesLinesData" stackId="1" startPc="268437806"/>
-        <entry endPc="268438034" name="allLines" stackId="2" startPc="268437987"/>
-        <entry endPc="268438034" name="results" stackId="1" startPc="268437987"/>
-        <entry endPc="268438140" name="evt" stackId="1" startPc="268438034"/>
-        <entry endPc="268438214" name="results" stackId="1" startPc="268438168"/>
-        <entry endPc="268438312" name="state" stackId="1" startPc="268438307"/>
-        <entry endPc="268438340" name="state" stackId="1" startPc="268438312"/>
+        <entry endPc="268437337" name="message" stackId="3" startPc="268437273"/>
+        <entry endPc="268437582" name="isFirst" stackId="4" startPc="268437262"/>
+        <entry endPc="268437582" name="allLines" stackId="5" startPc="268437262"/>
+        <entry endPc="268437582" name="disrupted" stackId="6" startPc="268437262"/>
+        <entry endPc="268437583" name="responseCode" stackId="1" startPc="268437258"/>
+        <entry endPc="268437583" name="data" stackId="2" startPc="268437258"/>
+        <entry endPc="268437705" name="results" stackId="1" startPc="268437583"/>
+        <entry endPc="268437813" name="allLines" stackId="2" startPc="268437705"/>
+        <entry endPc="268437813" name="results" stackId="1" startPc="268437705"/>
+        <entry endPc="268437894" name="item" stackId="4" startPc="268437849"/>
+        <entry endPc="268437907" name="i" stackId="3" startPc="268437849"/>
+        <entry endPc="268437910" name="temp" stackId="2" startPc="268437817"/>
+        <entry endPc="268437911" name="results" stackId="1" startPc="268437813"/>
+        <entry endPc="268438039" name="status" stackId="6" startPc="268437947"/>
+        <entry endPc="268438039" name="name" stackId="5" startPc="268437947"/>
+        <entry endPc="268438039" name="item" stackId="4" startPc="268437947"/>
+        <entry endPc="268438052" name="i" stackId="3" startPc="268437947"/>
+        <entry endPc="268438055" name="results" stackId="2" startPc="268437915"/>
+        <entry endPc="268438056" name="tubesLinesData" stackId="1" startPc="268437911"/>
+        <entry endPc="268438139" name="allLines" stackId="2" startPc="268438092"/>
+        <entry endPc="268438139" name="results" stackId="1" startPc="268438092"/>
+        <entry endPc="268438245" name="evt" stackId="1" startPc="268438139"/>
+        <entry endPc="268438319" name="results" stackId="1" startPc="268438273"/>
+        <entry endPc="268438417" name="state" stackId="1" startPc="268438412"/>
+        <entry endPc="268438445" name="state" stackId="1" startPc="268438417"/>
     </localVars>
     <annotations/>
     <functions>
@@ -455,16 +455,16 @@
         <dataEntry offset="87" parentId="" symbolId="globals" type="module"/>
         <dataEntry offset="230" parentId="globals" symbolId="ResultsView" type="class"/>
         <dataEntry offset="349" parentId="globals" symbolId="WelcomePageDelegate" type="class"/>
-        <dataEntry offset="540" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry offset="619" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry offset="658" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry offset="689" parentId="Rez" symbolId="Fonts" type="module"/>
-        <dataEntry offset="720" parentId="Rez" symbolId="JsonData" type="module"/>
-        <dataEntry offset="751" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry offset="782" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry offset="821" parentId="globals" symbolId="WelcomeView" type="class"/>
-        <dataEntry offset="940" parentId="globals" symbolId="ResultsMessageDelegate" type="class"/>
-        <dataEntry offset="1043" parentId="globals" symbolId="TubeRequestApp" type="class"/>
-        <dataEntry offset="1122" parentId="globals" symbolId="ResultsPageDelegate" type="class"/>
+        <dataEntry offset="548" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry offset="627" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry offset="666" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry offset="697" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry offset="728" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry offset="759" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry offset="790" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry offset="829" parentId="globals" symbolId="WelcomeView" type="class"/>
+        <dataEntry offset="948" parentId="globals" symbolId="ResultsMessageDelegate" type="class"/>
+        <dataEntry offset="1051" parentId="globals" symbolId="TubeRequestApp" type="class"/>
+        <dataEntry offset="1130" parentId="globals" symbolId="ResultsPageDelegate" type="class"/>
     </dataEntryOffsetMappings>
 </debugInfo>
