@@ -31,7 +31,7 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
         notify = handler;
     }
 
-    function makeRequestTo(toDo) {
+    function makeRequestTo(toDo, tflType) {
         notify.invoke("Requesting\nTFL Status");
         resetState();
         
@@ -40,7 +40,7 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
         };
 		
         Comm.makeWebRequest(//url, parameters, options, responseCallback) (
-            "https://api.tfl.gov.uk/Line/Mode/tube/Status",
+            "https://api.tfl.gov.uk/Line/Mode/" + tflType + "/Status",
             {
             	"detail" => false
             },
@@ -52,57 +52,69 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
                 :responseType  => Comm.HTTP_RESPONSE_CONTENT_TYPE_JSON
             },
             toDo
-        );
+        );        
     }
-    
+       
     function showAllLines() {
     	makeRequestTo(method(:onReceive));
     }
     
     function showDisruptedLines() {
-    	showDisrupted = true;    	
-    	makeRequestTo(method(:onReceive));
+    	showDisrupted = true;     	
+    	notify.invoke("Receiving TFL updates...");
+    	   	
+    	makeRequestTo(method(:onReceive), "tube");
+    	makeRequestTo(method(:onReceive), "dlr,overground,tflrail");
     }
 
     function resetState() {
     	shift = 0;
     	max = 8;
     }
-
+    
+    hidden var _allLines = [];
+    
     // Receive the data from the web request
     function onReceive(responseCode, data) {
-        if (responseCode == 200) {
-            notify.invoke("TFL status received");
-            var allLines = parseLines(data);
-            
-            var disrupted = [];
-            if (showDisrupted) {
-            	disrupted = filterDisrupted(disrupted);
-            }
-                
-            if (disrupted.size() > 0) {            
-            	showResults(disrupted);
-            } else {
-            	showMessagePage(["Lines are OK"], allLines);
-            }
-
-        } else {
-        	// TODO errors            
+    	if (responseCode != 200) {
+    		// TODO errors            
             var message = "Failed.\nError: " + responseCode.toString();            
             if (responseCode == -104) {
             	message += ".\nPlz, check connection";
             }            
             notify.invoke(message);
-        }
-    }
+            return;
+    	}
+   	
+    	var isFirst = _allLines.size() == 0;
+        var allLines = parseLines(data);
         
+        _allLines.addAll(allLines);
+        
+        if (isFirst) {
+        	return;
+        }
+            
+        var disrupted = [];
+        if (showDisrupted) {
+            disrupted = filterDisrupted(_allLines);
+        }
+                
+        if (disrupted.size() > 0) {       
+            	showMessagePage(disrupted, _allLines);
+        } else {
+            	showMessagePage(["Lines are OK"], _allLines);
+        }    
+    }
+            
     function showResults(results) {    	
     	Ui.pushView(new ResultsView(results.slice(shift, step)), 
     				new ResultsPageDelegate(results, shift, step), Ui.SLIDE_IMMEDIATE); 
     }
     
     function showMessagePage(results, allLines) {
-    	Ui.pushView(new ResultsView(results), new ResultsMessageDelegate(results, allLines), Ui.SLIDE_IMMEDIATE); 
+    	Ui.pushView(new ResultsView(results.slice(shift, step)), 
+    				new ResultsMessageDelegate(results, allLines), Ui.SLIDE_IMMEDIATE); 
     }
     
     function filterDisrupted(results) {            

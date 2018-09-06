@@ -41,8 +41,8 @@ class ResultsView extends Ui.View {
     	
     	var fontSize = Graphics.FONT_SYSTEM_XTINY;
     	
-    	if (content.size() < 2) {
-    		fontSize = Graphics.FONT_SYSTEM_MEDIUM;
+    	if (content.size() < 3) {
+    		fontSize = Graphics.FONT_SYSTEM_SMALL;    		
     	}
     	
     	dc.drawText(dc.getWidth() / 2, dc.getHeight() / 2, fontSize, result, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
