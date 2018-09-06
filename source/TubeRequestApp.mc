@@ -6,7 +6,7 @@
 
 using Toybox.Application as App;
 
-class WebRequestApp extends App.AppBase {
+class TubeRequestApp extends App.AppBase {
     hidden var mView;
 
     function initialize() {
@@ -24,7 +24,7 @@ class WebRequestApp extends App.AppBase {
 
     // Return the initial view of your application here
     function getInitialView() {
-        mView = new WebRequestView();
-        return [mView, new WebRequestDelegate(mView.method(:onReceive))];
+        mView = new WelcomeView();
+        return [mView, new WelcomePageDelegate(mView.method(:onReceive))];
     }
 }

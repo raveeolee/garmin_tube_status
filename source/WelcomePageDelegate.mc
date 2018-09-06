@@ -7,63 +7,32 @@
 using Toybox.Communications as Comm;
 using Toybox.WatchUi as Ui;
 
-class WebRequestDelegate extends Ui.BehaviorDelegate {
-    var notify;
-    var shift = 0;
-    var step = 8;
-    var max = step;
-    var mResults;
-    var mNext;
+class WelcomePageDelegate extends Ui.BehaviorDelegate {
+    hidden var notify;
+    hidden var shift = 0;
+    hidden var step = 8;
+    hidden var max = step;
+    hidden var showDisrupted = false;
 
     // Handle menu button press
     function onMenu() {
-        makeRequest();
+        showAllLines();
         return true;
     }
 
     function onSelect() {
-        makeRequest();
+        showAllLines();
         return true;
     }
- 
-    function onNextPageP() {    	
-    	if (mResults != null) {
-    		var tMax = max;
-    		if (max > mResults.size()) {
-    			tMax = mResults.size();
-    		}
-    		
-    		// notify.invoke(mResults.slice(shift, tMax));
-    		Ui.pushView(new ResultsView(mResults.slice(shift, tMax)), self, Ui.SLIDE_IMMEDIATE);
-    	
-    		if (max < mResults.size()) {
-    			shift += step;
-    			max += step;
-    		}
-    	}
-    }
-    
-    function onPreviousPageP() {
-    	//if (shift > 0) {
-    	//	shift -= step;
-    	//	max   -= step;
-    		
-    	//	System.println("shift: " + shift + " max: " + max);
-    		//notify.invoke(mResults.slice(shift, max));
-    	//	Ui.pushView(new ResultsView(mResults.slice(shift, max)), self, Ui.SLIDE_IMMEDIATE);
-    	//}
-    	Ui.popView(Ui.SLIDE_IMMEDIATE);
-    }
-    
+     
     // Set up the callback to the view
     function initialize(handler) {
         Ui.BehaviorDelegate.initialize();
         notify = handler;
     }
 
-    function makeRequest() {
+    function makeRequestTo(toDo) {
         notify.invoke("Requesting\nTFL Status");
-        
         resetState();
 		
         Comm.makeWebRequest(//url, parameters, options, responseCallback) (
@@ -74,14 +43,22 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
                 "Content-Type" => Comm.REQUEST_CONTENT_TYPE_URL_ENCODED,
                 :responseType  => Comm.HTTP_RESPONSE_CONTENT_TYPE_JSON
             },
-            method(:onReceive)
+            toDo
         );
+    }
+    
+    function showAllLines() {
+    	makeRequestTo(method(:onReceive));
+    }
+    
+    function showDisruptedLines() {
+    	showDisrupted = true;    	
+    	makeRequestTo(method(:onReceive));
     }
 
     function resetState() {
     	shift = 0;
     	max = 8;
-    	mResults = null;
     }
 
     // Receive the data from the web request
@@ -89,13 +66,39 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
         if (responseCode == 200) {
             notify.invoke("TFL status received");
             var results = parseLines(data);
-            onNextPageP();
+            
+            if (showDisrupted) {
+            	mResults = filterDisrupted(results);
+            }
+            
+            onNextPageP(results);
            	
         } else {
         	// TODO errors
             notify.invoke("Failed to load\nError: " + responseCode.toString());
         }
     }
+        
+    function onNextPageP(results) {    	
+    	Ui.pushView(new ResultsView(results.slice(shift, step)), 
+    				new ResultsPageDelegate(results, shift, step), Ui.SLIDE_IMMEDIATE); 
+    }
+    
+    function filterDisrupted(results) {            
+            var temp = [];
+            for (var i = 0; i < results.size(); i++) {
+                var item = results[i];                
+            	if (item.find("Good") == null) {
+            		temp.add(item);
+            	}
+            }	
+            
+            if (temp.size() == 0) {
+            	temp = "Good Service on all lines";
+            }
+            
+            return temp;	
+    }    
     
     function parseLines(tubesLinesData) {
         var results = [];
@@ -104,37 +107,11 @@ class WebRequestDelegate extends Ui.BehaviorDelegate {
             var name = item.get("name");
             var status = item.get("lineStatuses")[0].get("statusSeverityDescription");
             
-            //System.println(name + " | " + status);
             results.add(name + " | " + status +  "\n");
         }
-        
-        //System.println(results);
-        mResults = results;
         return results;
-        // notify.invoke(results.slice());
     }
-    
-    function onKey(evt) {
-    	var view = new WebRequestView();
-        if (evt.getKey() == Ui.KEY_DOWN) {
-        	System.println("KEY DOWN");
-            //onNextPageP();
-            // System.println("Out");
-           
-           onNextPageP();
-           //Ui.pushView(view, self, Ui.SLIDE_IMMEDIATE);           	    
-           return true;
-        } 
-        
-        if (evt.getKey() == Ui.KEY_UP) {
-        	System.println("KEY UP");
-            onPreviousPageP();
-            //Ui.pushView(view, self, Ui.SLIDE_IMMEDIATE);
-            return true;
-        }
-
-        return true;
-    }
+      
     
     // When a next page behavior occurs, onNextPage() is called.
     // @return [Boolean] true if handled, false otherwise
