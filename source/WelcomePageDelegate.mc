@@ -21,7 +21,7 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
     }
 
     function onSelect() {
-        showAllLines();
+        showDisruptedLines();
         return true;
     }
      
@@ -65,23 +65,33 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
     function onReceive(responseCode, data) {
         if (responseCode == 200) {
             notify.invoke("TFL status received");
-            var results = parseLines(data);
+            var allLines = parseLines(data);
             
+            var disrupted = [];
             if (showDisrupted) {
-            	mResults = filterDisrupted(results);
+            	disrupted = filterDisrupted(disrupted);
             }
-            
-            onNextPageP(results);
-           	
+                
+            if (disrupted.size() > 0) {            
+            	showResults(disrupted);
+            } else {
+            	showMessagePage(["Good TFL status"], allLines);
+            }
+
         } else {
         	// TODO errors
             notify.invoke("Failed to load\nError: " + responseCode.toString());
         }
     }
         
-    function onNextPageP(results) {    	
+    function showResults(results) {    	
     	Ui.pushView(new ResultsView(results.slice(shift, step)), 
     				new ResultsPageDelegate(results, shift, step), Ui.SLIDE_IMMEDIATE); 
+    }
+    
+    function showMessagePage(results, allLines) {
+    	Ui.pushView(new ResultsView(results), 
+    				new ResultsMessageDelegate(results, allLines), Ui.SLIDE_IMMEDIATE); 
     }
     
     function filterDisrupted(results) {            
@@ -91,10 +101,6 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
             	if (item.find("Good") == null) {
             		temp.add(item);
             	}
-            }	
-            
-            if (temp.size() == 0) {
-            	temp = "Good Service on all lines";
             }
             
             return temp;	

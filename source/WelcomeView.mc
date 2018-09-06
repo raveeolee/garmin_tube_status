@@ -18,7 +18,7 @@ class WelcomeView extends Ui.View {
 
     // Load your resources here
     function onLayout(dc) {
-        mMessage = "Press menu or\nselect button\nto retrive updates";
+        mMessage = "Press menu or\nselect button\nto retrieve updates";
         mDc = dc;
     }
 

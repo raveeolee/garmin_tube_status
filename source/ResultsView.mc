@@ -39,7 +39,13 @@ class ResultsView extends Ui.View {
     		result += content[i];
     	}
     	
-    	dc.drawText(dc.getWidth() / 2, 20, Graphics.FONT_SYSTEM_XTINY, result, Graphics.TEXT_JUSTIFY_CENTER);
+    	var fontSize = Graphics.FONT_SYSTEM_XTINY;
+    	
+    	if (content.size() < 2) {
+    		fontSize = Graphics.FONT_SYSTEM_MEDIUM;
+    	}
+    	
+    	dc.drawText(dc.getWidth() / 2, dc.getHeight() / 2, fontSize, result, Graphics.TEXT_JUSTIFY_CENTER | Graphics.TEXT_JUSTIFY_VCENTER);
     }
 
     // Called when this View is removed from the screen. Save the

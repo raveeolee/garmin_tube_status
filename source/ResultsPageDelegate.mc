@@ -21,7 +21,7 @@ class ResultsPageDelegate extends Ui.BehaviorDelegate {
     	mShift = shift;
     	mStep = step;  
     	
-    	onNextPageP(results);
+    	showNextPage(results);
     }
     
     function onKey(evt) {
@@ -29,7 +29,7 @@ class ResultsPageDelegate extends Ui.BehaviorDelegate {
         	System.println("KEY DOWN");
                       
            if (mResults != null) {
-           		onNextPageP(mResults);
+           		showNextPage(mResults);
            }  
                     	    
            return true;
@@ -37,14 +37,14 @@ class ResultsPageDelegate extends Ui.BehaviorDelegate {
         
         if (evt.getKey() == Ui.KEY_UP) {
         	System.println("KEY UP");
-            onPreviousPageP();
+            showPreviousPage();
             return true;
         }
    
         return true;
     }
     
-    function onNextPageP(results) {
+    function showNextPage(results) {
     	if (results != null) {
     		var tMax = mMax;
     		if (mMax > results.size()) {
@@ -65,7 +65,7 @@ class ResultsPageDelegate extends Ui.BehaviorDelegate {
     	return true;
     } 
     
-    function onPreviousPageP() {
+    function showPreviousPage() {
     	Ui.popView(Ui.SLIDE_IMMEDIATE);
     }
 }
