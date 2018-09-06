@@ -89,8 +89,9 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
             var message = "Failed.\nError: " + responseCode.toString();            
             if (responseCode == -104) {
             	message += ".\nPlz, check connection";
-            }            
-            _notify.invoke(message);
+            }  
+
+            _progressBar.setDisplayString(message);
             return;
     	}
    	
