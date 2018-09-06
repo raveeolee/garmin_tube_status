@@ -41,7 +41,7 @@ class ResultsMessageDelegate extends Ui.BehaviorDelegate {
     }   
     
     function onBack() {
-    	Ui.popView(Ui.SLIDE_IMMEDIATE);
+    	System.exit();
     } 
     
     function showPreviousPage() {

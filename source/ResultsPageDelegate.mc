@@ -41,7 +41,7 @@ class ResultsPageDelegate extends Ui.BehaviorDelegate {
             showPreviousPage();
             return true;
         }
-   
+           
         return true;
     }
     
@@ -62,8 +62,7 @@ class ResultsPageDelegate extends Ui.BehaviorDelegate {
     }   
     
     function onBack() {
-    	Ui.popView(Ui.SLIDE_IMMEDIATE);
-    	return true;
+    	System.exit();
     } 
     
     function showPreviousPage() {

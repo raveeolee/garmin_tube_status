@@ -6,6 +6,7 @@
 
 using Toybox.Communications as Comm;
 using Toybox.WatchUi as Ui;
+using Toybox.Timer;
 
 class WelcomePageDelegate extends Ui.BehaviorDelegate {
     hidden var _notify;
@@ -14,6 +15,7 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
     hidden var _max = _step;
     hidden var _showDisrupted = false;
     hidden var _progressBar;
+    hidden var _allLines = [];
 
     // Handle menu button press
     function onMenu() {
@@ -80,7 +82,9 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
     	_max = 8;
     }
     
-    hidden var _allLines = [];
+    function switchToWelcome() {
+    	Ui.switchToView(new WelcomeView(), self, Ui.SLIDE_IMMEDIATE);
+    }
     
     // Receive the data from the web request
     function onReceive(responseCode, data) {
@@ -90,8 +94,13 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
             if (responseCode == -104) {
             	message += ".\nPlz, check connection";
             }  
-
-            _progressBar.setDisplayString(message);
+			
+			// Display error message			
+			_progressBar.setDisplayString(message);
+			
+			// After 2 seconds switch back to welcome page, so user can retry
+			var timer = new Timer.Timer();
+			timer.start(method(:switchToWelcome), 2000, false);
             return;
     	}
    	
@@ -118,7 +127,7 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
             showMessagePage(["Lines are OK"], _allLines);
         }    
     }
-            
+       
     function showResults(results) {    	
     	Ui.switchToView(new ResultsView(results.slice(_shift, _step)), 
     				new ResultsPageDelegate(results, _shift, _step), Ui.SLIDE_IMMEDIATE); 
@@ -172,7 +181,7 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
     // When a back behavior occurs, onBack() is called.
     // @return [Boolean] true if handled, false otherwise
     function onBack() {
-    	Ui.popView(Ui.SLIDE_IMMEDIATE);
+    	System.exit();
     	return true;
     }
 
