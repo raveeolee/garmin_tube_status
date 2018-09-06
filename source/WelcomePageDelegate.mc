@@ -112,19 +112,19 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
         }
                 
         if (disrupted.size() > 0) {       
-            	showMessagePage(disrupted, _allLines);
+            showMessagePage(disrupted, _allLines);
         } else {
-            	showMessagePage(["Lines are OK"], _allLines);
+            showMessagePage(["Lines are OK"], _allLines);
         }    
     }
             
     function showResults(results) {    	
-    	Ui.pushView(new ResultsView(results.slice(_shift, _step)), 
+    	Ui.switchToView(new ResultsView(results.slice(_shift, _step)), 
     				new ResultsPageDelegate(results, _shift, _step), Ui.SLIDE_IMMEDIATE); 
     }
     
     function showMessagePage(results, allLines) {
-    	Ui.pushView(new ResultsView(results.slice(_shift, _step)), 
+    	Ui.switchToView(new ResultsView(results.slice(_shift, _step)), 
     				new ResultsMessageDelegate(results, allLines), Ui.SLIDE_IMMEDIATE); 
     }
     
