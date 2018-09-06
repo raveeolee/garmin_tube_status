@@ -34,13 +34,21 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
     function makeRequestTo(toDo) {
         notify.invoke("Requesting\nTFL Status");
         resetState();
+        
+        var headers = {
+        	"Content-Type" => Comm.REQUEST_CONTENT_TYPE_URL_ENCODED
+        };
 		
         Comm.makeWebRequest(//url, parameters, options, responseCallback) (
-            "https://api-neon.tfl.gov.uk/Line/Mode/tube/Status?detail=false",
+            "https://api.tfl.gov.uk/Line/Mode/tube/Status",
             {
+            	"detail" => false
             },
             {
-                "Content-Type" => Comm.REQUEST_CONTENT_TYPE_URL_ENCODED,
+                //"Content-Type" => Comm.REQUEST_CONTENT_TYPE_URL_ENCODED,
+                //"Content-Type" => Comm.REQUEST_CONTENT_TYPE_JSON,
+                :method => Comm.HTTP_REQUEST_METHOD_GET,
+                :headers => headers,
                 :responseType  => Comm.HTTP_RESPONSE_CONTENT_TYPE_JSON
             },
             toDo
@@ -75,12 +83,16 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
             if (disrupted.size() > 0) {            
             	showResults(disrupted);
             } else {
-            	showMessagePage(["Good TFL status"], allLines);
+            	showMessagePage(["Lines are OK"], allLines);
             }
 
         } else {
-        	// TODO errors
-            notify.invoke("Failed to load\nError: " + responseCode.toString());
+        	// TODO errors            
+            var message = "Failed.\nError: " + responseCode.toString();            
+            if (responseCode == -104) {
+            	message += ".\nPlz, check connection";
+            }            
+            notify.invoke(message);
         }
     }
         
@@ -90,8 +102,7 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
     }
     
     function showMessagePage(results, allLines) {
-    	Ui.pushView(new ResultsView(results), 
-    				new ResultsMessageDelegate(results, allLines), Ui.SLIDE_IMMEDIATE); 
+    	Ui.pushView(new ResultsView(results), new ResultsMessageDelegate(results, allLines), Ui.SLIDE_IMMEDIATE); 
     }
     
     function filterDisrupted(results) {            
