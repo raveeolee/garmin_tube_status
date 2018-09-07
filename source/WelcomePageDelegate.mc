@@ -16,10 +16,29 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
     hidden var _showDisrupted = false;
     hidden var _progressBar;
     hidden var _allLines = [];
+    
+    const _symbols = [
+	    :symbol0,
+	    :symbol1,
+	    :symbol2,
+	    :symbol3,
+	    :symbol4,
+	    :symbol5,
+	    :symbol6,
+	    :symbol7,
+	    :symbol8,
+	    :symbol9,
+	    :symbol10,
+	    :symbol11,
+	    :symbol12,
+	    :symbol13,
+	    :symbol14,
+	    :symbol15
+	];
 
     // Handle menu button press
     function onMenu() {
-        showAllLines();
+        showDisruptedLines();
         return true;
     }
 
@@ -59,12 +78,11 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
     }
        
     function showAllLines() {
-    	makeRequestTo(method(:onReceive));
+    	makeRequestTo(method(:onReceive), "tube");
     }
     
     function showDisruptedLines() {
-    	_showDisrupted = true;     	
-    	// notify.invoke("Receiving TFL updates...");
+    	//_showDisrupted = true;     	
     	
     	_progressBar = new Ui.ProgressBar(
             "Receiving TFL updates......",
@@ -121,21 +139,48 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
             disrupted = filterDisrupted(_allLines);
         }
                 
-        if (disrupted.size() > 0) {       
-            showMessagePage(disrupted, _allLines);
-        } else {
-            showMessagePage(["Lines are OK"], _allLines);
-        }    
+        //if (disrupted.size() > 0) {       
+            showDisruptedTflLines(disrupted, _allLines);
+        //} else {
+        //	showAllTflLines(disrupted, _allLines);
+        //}   
     }
-       
-    function showResults(results) {    	
-    	Ui.switchToView(new ResultsView(results.slice(_shift, _step)), 
-    				new ResultsPageDelegate(results, _shift, _step), Ui.SLIDE_IMMEDIATE); 
+         
+    function showAllTflLines(allLines, results) {
+        var menu = new Ui.Menu();            	
+    	var delegate = new ResultMenuDelegate(allLines, results);
+    	
+    	menu.setTitle("All TFL lines");
+    	
+    	for (var n = 0; n < results.size(); n++) {
+    		menu.addItem(results[n], _symbols[n]);
+    	}
+    	
+    	menu.addItem("Exit", :exit);    	   	
+    	Ui.pushView(menu, delegate, Ui.SLIDE_IMMEDIATE);        
     }
     
-    function showMessagePage(results, allLines) {
-    	Ui.switchToView(new ResultsView(results.slice(_shift, _step)), 
-    				new ResultsMessageDelegate(results, allLines), Ui.SLIDE_IMMEDIATE); 
+    function showDisruptedTflLines(disrupted, allLines) {
+    	var menu = new Ui.Menu();            	
+    	var delegate = new ResultMenuDelegate(disrupted, allLines);
+    	
+    	menu.setTitle("TFL status");
+    	
+    	var items = [];
+    	if (disrupted.size() == 0) {
+    		items.add("Good Service");
+    	}
+    	
+    	items.addAll(disrupted);   
+    	
+    	for (var n = 0; n < items.size(); n++) {
+    		menu.addItem(items[n], n);
+    	}
+    	
+    	menu.addItem("Detailed status", :details);
+    	menu.addItem("Exit",    		:exit);	
+    	  	
+    	Ui.pushView(menu, delegate, Ui.SLIDE_IMMEDIATE);    	
     }
     
     function filterDisrupted(results) {            
@@ -157,7 +202,7 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
             var name = item.get("name");
             var status = item.get("lineStatuses")[0].get("statusSeverityDescription");
             
-            results.add(name + " | " + status +  "\n");
+            results.add(name + " | " + status);
         }
         return results;
     }
@@ -182,7 +227,6 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
     // @return [Boolean] true if handled, false otherwise
     function onBack() {
     	System.exit();
-    	return true;
     }
 
     // When a next mode behavior occurs, onNextMode() is called.
