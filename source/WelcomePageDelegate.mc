@@ -138,9 +138,11 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
         if (_showDisrupted) {
             disrupted = filterDisrupted(_allLines);
         }
+        
+        showDisruptedTflLines(disrupted, _allLines);
                 
         //if (disrupted.size() > 0) {       
-            showDisruptedTflLines(disrupted, _allLines);
+            
         //} else {
         //	showAllTflLines(disrupted, _allLines);
         //}   
@@ -161,6 +163,8 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
     }
     
     function showDisruptedTflLines(disrupted, allLines) {
+    	System.println("Pushing results");
+    	
     	var menu = new Ui.Menu();            	
     	var delegate = new ResultMenuDelegate(disrupted, allLines);
     	
@@ -168,19 +172,20 @@ class WelcomePageDelegate extends Ui.BehaviorDelegate {
     	
     	var items = [];
     	if (disrupted.size() == 0) {
-    		items.add("Good Service");
+    		menu.addItem("Good Service", :good_service);
     	}
     	
     	items.addAll(disrupted);   
     	
     	for (var n = 0; n < items.size(); n++) {
-    		menu.addItem(items[n], n);
-    	}
+    		menu.addItem(items[n], _symbols[n]);
+    	} 
     	
     	menu.addItem("Detailed status", :details);
-    	menu.addItem("Exit",    		:exit);	
+    	menu.addItem("Exit",    		:exit);   		
     	  	
-    	Ui.pushView(menu, delegate, Ui.SLIDE_IMMEDIATE);    	
+    	Ui.pushView(menu, delegate, Ui.SLIDE_DOWN);    
+    	return true;	
     }
     
     function filterDisrupted(results) {            

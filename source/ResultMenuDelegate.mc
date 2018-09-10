@@ -31,15 +31,17 @@ class ResultMenuDelegate extends Ui.MenuInputDelegate {
 
 	// Set up the callback to the view
     function initialize(results, allLines) {   
-    	Ui.MenuInputDelegate.initialize();
+    	MenuInputDelegate.initialize();
     	
-    	self._results = results;
-    	self._allLines = allLines;
+    	_results = results;
+    	_allLines = allLines;
+    	
+    	System.println("Initialized Results menu");
     }
     
     function onMenuItem(item) {
-        System.println(item);
-        
+        System.println("Selected: " + item.toString());
+                    
         if (item == :exit) {
         	System.exit();
         }

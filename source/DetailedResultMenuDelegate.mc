@@ -25,5 +25,7 @@ class DetailedResultMenuDelegate extends Ui.MenuInputDelegate {
         else if (item == :back) {
         	Ui.popView(Ui.SLIDE_IMMEDIATE);
         }
+        
+        return true;
     }    
 }
